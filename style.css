@@ -6,7 +6,8 @@
   font-family: Lato, sans-serif;
 }
 
-.image-container { width: 500px;
+.image-container { 
+  width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
@@ -44,16 +45,16 @@
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
-input,button{
-  outline:none;
+input,button {
+  outline: none;
 }
 
 .btn {
@@ -82,7 +83,7 @@ input,button{
   text-transform: uppercase;
 }
 
-.task-input{
+.task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -140,7 +141,7 @@ input,button{
   width: 226px
 }
 
-.btn.delete .icon{
+.btn.delete .icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -161,16 +162,16 @@ input,button{
 
 #completed-tasks .task-input,
 #incomplete-tasks .task-input {
-  display:none
+  display: none
 }
 
 #completed-tasks .edit-mode .task-input,
 #incomplete-tasks .edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 #completed-tasks .edit-mode .task,
 #incomplete-tasks .edit-mode .task {
-  display:none;
+  display: none;
 }
