@@ -6,24 +6,24 @@
   font-family: Lato, sans-serif;
 }
 
-.image-container { 
+.image { 
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.image-container .image {
+.image .image-pic {
   width: 100%;
 }
 
-.image-container .more-info {
+.image .image-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.image-container { 
+.image { 
   text-align: center;
 }
 
