@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -138,7 +138,7 @@ input,button {
 }
 
 .single-task > .task-input {
-  width: 226px
+  width: 226px;
 }
 
 .btn.delete .icon {
@@ -162,13 +162,13 @@ input,button {
 
 #completed-tasks .task-input,
 #incomplete-tasks .task-input {
-  display: none
+  display: none;
 }
 
 #completed-tasks .edit-mode .task-input,
 #incomplete-tasks .edit-mode .task-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 #completed-tasks .edit-mode .task,
